@@ -1,0 +1,25 @@
+{
+  "name": "ra-language-finnish",
+  "version": "1.0.0",
+  "description": "Finnish translation for react-admin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aikain/ra-language-finnish.git"
+  },
+  "keywords": [
+    "react-admin",
+    "finnish",
+    "translate",
+    "ra-language-finnish"
+  ],
+  "author": "Ville Nupponen <ville.nupponen@aika.in>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aikain/ra-language-finnish/issues"
+  },
+  "homepage": "https://github.com/Aikain/ra-language-finnish#readme"
+}
