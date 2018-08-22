@@ -41,7 +41,7 @@ module.exports = {
                 upload_single: 'Pudota tiedosto tai klikkaa valitaksesi.',
             },
             image: {
-                upload_several: 'Pudota kuvia ta klikkaa valitaksesi.',
+                upload_several: 'Pudota kuvia tai klikkaa valitaksesi.',
                 upload_single: 'Pudota kuva tai klikkaa valitaksesi.',
             },
             references: {
@@ -71,8 +71,8 @@ module.exports = {
         navigation: {
             no_results: 'Yhtään kohdetta ei löytynyt',
             no_more_results:
-                'Sivu %{page} ylittää tulostin määrän. Yritä edellistä sivua.',
-            page_out_of_boundaries: 'Sivu %{page} on rajojen ulkopuolella',
+                '%{page}. sivu ylittää tulosten määrän. Yritä edellistä sivua.',
+            page_out_of_boundaries: '%{page}. sivu on rajojen ulkopuolella',
             page_out_from_end: 'Olet jo viimeisellä sivulla',
             page_out_from_begin: 'Olet jo ensimmäisellä sivulla',
             page_range_info: '%{offsetBegin}-%{offsetEnd} / %{total}',
