@@ -17,6 +17,7 @@ module.exports = {
             remove_filter: 'Poista suodatin',
             remove: 'Poista',
             save: 'Tallenna',
+            search: 'Etsi',
             show: 'Näytä',
             sort: 'Järjestä',
             undo: 'Kumoa',
@@ -37,7 +38,7 @@ module.exports = {
         },
         input: {
             file: {
-                upload_several:'Pudota tiedostoja tai klikkaa valitaksesi.',
+                upload_several: 'Pudota tiedostoja tai klikkaa valitaksesi.',
                 upload_single: 'Pudota tiedosto tai klikkaa valitaksesi.',
             },
             image: {
@@ -76,10 +77,12 @@ module.exports = {
             page_out_from_end: 'Olet jo viimeisellä sivulla',
             page_out_from_begin: 'Olet jo ensimmäisellä sivulla',
             page_range_info: '%{offsetBegin}-%{offsetEnd} / %{total}',
+            page_rows_per_page: 'Rivejä sivua kohti:',
             next: 'Seuraava',
             prev: 'Edellinen',
         },
         auth: {
+            user_menu: 'Profiili',
             username: 'Käyttäjätunnus',
             password: 'Salasana',
             sign_in: 'Kirjaudu sisään',
