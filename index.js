@@ -8,6 +8,7 @@ module.exports = {
             cancel: 'Peruuta',
             clear_input_value: 'Tyhjennä',
             clone: 'Kopioi',
+            confirm: 'Vahvista',
             create: 'Uusi',
             delete: 'Poista',
             edit: 'Muokkaa',
@@ -101,6 +102,7 @@ module.exports = {
             data_provider_error:
                 'dataProvider virhe. Tarkista console lisätietojen saamiseksi.',
             canceled: 'Toiminta peruutettu',
+            logged_out: 'Istuntosi on päättynyt, ole hyvä kirjaudu uudelleen.',
         },
         validation: {
             required: 'Pakollinen',
