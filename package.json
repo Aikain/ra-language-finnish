@@ -1,6 +1,6 @@
 {
   "name": "ra-language-finnish",
-  "version": "2.7.0",
+  "version": "2.9.3",
   "description": "Finnish translation for react-admin",
   "main": "index.js",
   "scripts": {
