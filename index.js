@@ -22,6 +22,8 @@ module.exports = {
             show: 'Näytä',
             sort: 'Järjestä',
             undo: 'Kumoa',
+            expand: 'Laajenna',
+            close: 'Sulje',
         },
         boolean: {
             true: 'Kyllä',
