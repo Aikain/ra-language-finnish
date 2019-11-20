@@ -28,6 +28,7 @@ module.exports = {
         boolean: {
             true: 'Kyllä',
             false: 'Ei',
+            null: '',
         },
         page: {
             create: 'Luo %{name}',
