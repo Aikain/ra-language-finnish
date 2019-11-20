@@ -85,6 +85,7 @@ module.exports = {
             prev: 'Edellinen',
         },
         auth: {
+            auth_check_error: 'Kirjaudu sisään jatkaaksesi',
             user_menu: 'Profiili',
             username: 'Käyttäjätunnus',
             password: 'Salasana',
