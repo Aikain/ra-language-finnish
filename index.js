@@ -105,6 +105,7 @@ module.exports = {
             http_error: 'Virhe palvelimelle yhdistettäessä',
             data_provider_error:
                 'dataProvider virhe. Tarkista console lisätietojen saamiseksi.',
+            i18n_error: 'Valitulle kielelle ei voitu ladata käännöstä',
             canceled: 'Toiminta peruutettu',
             logged_out: 'Istuntosi on päättynyt, ole hyvä kirjaudu uudelleen.',
         },
