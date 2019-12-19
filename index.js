@@ -49,6 +49,10 @@ module.exports = {
                 upload_several: 'Pudota kuvia tai klikkaa valitaksesi.',
                 upload_single: 'Pudota kuva tai klikkaa valitaksesi.',
             },
+            password: {
+                toggle_hidden: "Näytä salasana",
+                toggle_visible: "Piilota salasana"
+            },
             references: {
                 all_missing: 'Viittauksen tietoja ei löydetty.',
                 many_missing: 'Vähintään yksi viittauksista ei ole saatavilla.',
