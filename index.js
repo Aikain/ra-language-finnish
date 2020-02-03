@@ -39,6 +39,8 @@ module.exports = {
             loading: 'Ladataan',
             not_found: 'Ei löytynyt',
             show: '%{name} #%{id}',
+            empty: 'Kohteessa %{name} ei ole sisältöä.',
+            invite: 'Haluako lisätä ensimmäisen?',
         },
         input: {
             file: {
