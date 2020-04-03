@@ -24,6 +24,8 @@ module.exports = {
             undo: 'Kumoa',
             expand: 'Laajenna',
             close: 'Sulje',
+            open_menu: 'Avaa valikko',
+            close_menu: 'Sulje valikko',
         },
         boolean: {
             true: 'Kyllä',
@@ -78,6 +80,8 @@ module.exports = {
             not_found:
                 'Kirjoitit viallisen osoitteen tai seurasit viallista linkkiä.',
             yes: 'Kyllä',
+            unsaved_changes:
+                'Joitakin muutoksia ei ole tallennettu. Haluatko varmasti hylätä ne?',
         },
         navigation: {
             no_results: 'Yhtään kohdetta ei löytynyt',
