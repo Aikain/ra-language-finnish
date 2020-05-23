@@ -1,25 +1,43 @@
 {
-  "name": "ra-language-finnish",
-  "version": "3.4.0",
-  "description": "Finnish translation for react-admin",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Aikain/ra-language-finnish.git"
-  },
-  "keywords": [
-    "react-admin",
-    "finnish",
-    "translate",
-    "ra-language-finnish"
-  ],
-  "author": "Ville Nupponen <ville.nupponen@aika.in>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Aikain/ra-language-finnish/issues"
-  },
-  "homepage": "https://github.com/Aikain/ra-language-finnish#readme"
+    "name": "ra-language-finnish",
+    "version": "3.4.0",
+    "description": "Finnish messages for react-admin, the frontend Framework for building B2B applications running in the browser on top of REST/GraphQL APIs, using ES6, React and Material Design",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Aikain/ra-language-finnish.git"
+    },
+    "files": [
+        "*.md",
+        "lib",
+        "esm",
+        "src"
+    ],
+    "main": "lib/index.js",
+    "module": "esm/index.js",
+    "types": "esm/index.d.ts",
+    "scripts": {
+        "build": "yarn run build-cjs && yarn run build-esm",
+        "build-cjs": "rimraf ./lib && tsc",
+        "build-esm": "rimraf ./esm && tsc --outDir esm --module es2015",
+        "watch": "tsc --outDir esm --module es2015 --watch"
+    },
+    "dependencies": {
+        "ra-core": "^3.5.3"
+    },
+    "devDependencies": {
+        "rimraf": "^3.0.2",
+        "typescript": "^3.8.3"
+    },
+    "keywords": [
+        "react-admin",
+        "finnish",
+        "translation",
+        "ra-language-finnish"
+    ],
+    "author": "Ville Nupponen <ville.nupponen@aika.in>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Aikain/ra-language-finnish/issues"
+    },
+    "homepage": "https://github.com/Aikain/ra-language-finnish#readme"
 }

@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "outDir": "lib",
+        "rootDir": "src",
+        "declaration": true,
+        "allowJs": false,
+        "target": "ES5",
+        "module": "CommonJS",
+        "lib": [
+            "ES2017",
+            "DOM"
+        ],
+        "jsx": "react",
+        "noImplicitAny": false,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "src"
+    ]
+}

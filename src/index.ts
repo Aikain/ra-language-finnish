@@ -1,4 +1,6 @@
-module.exports = {
+import { TranslationMessages } from 'ra-core';
+
+const finnishMessages: TranslationMessages = {
     ra: {
         action: {
             add_filter: 'Lisää suodatin',
@@ -132,3 +134,5 @@ module.exports = {
         },
     },
 };
+
+export default finnishMessages;
