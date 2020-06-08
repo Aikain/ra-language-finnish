@@ -333,10 +333,10 @@ query-string@^5.1.1:
     object-assign "^4.1.0"
     strict-uri-encode "^1.0.0"
 
-ra-core@^3.5.3:
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-3.5.3.tgz#719632f5cfacbf93dd81764cb6a929349937ca8d"
-  integrity sha512-PDrWkCYZFIeGrNCThUNwQY713ZTIYQmxSY4ELMIrXb2jNZtTo7AADpuweTeztNJZ2JjE4miQXFwXXhu6z8oZXQ==
+ra-core@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-3.6.0.tgz#f264c9cdc4655c99841bd2d5b783e4a3d98009b9"
+  integrity sha512-dMABSXtBDUX8FYIeE/Ac2XKg/mkD3UwAiNBtaMvvWxfzRiyNM8CMBXAHQOj0NTtHvaond7yKSF/Ji4oKPMULCw==
   dependencies:
     "@testing-library/react" "^8.0.7"
     classnames "~2.2.5"
