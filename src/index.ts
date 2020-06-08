@@ -24,6 +24,7 @@ const finnishMessages: TranslationMessages = {
             show: 'Näytä',
             sort: 'Järjestä',
             undo: 'Kumoa',
+            unselect: 'Poista valinnat',
             expand: 'Laajenna',
             close: 'Sulje',
             open_menu: 'Avaa valikko',
