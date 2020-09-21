@@ -98,6 +98,11 @@ const finnishMessages: TranslationMessages = {
             next: 'Seuraava',
             prev: 'Edellinen',
         },
+        sort: {
+            sort_by: 'Järjestä %{order} \'%{field}\'-kentän mukaan',
+            ASC: 'nousevasti',
+            DESC: 'laskevasti',
+        },
         auth: {
             auth_check_error: 'Kirjaudu sisään jatkaaksesi',
             user_menu: 'Profiili',
