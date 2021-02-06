@@ -97,6 +97,7 @@ const finnishMessages: TranslationMessages = {
             page_rows_per_page: 'Rivejä sivua kohti:',
             next: 'Seuraava',
             prev: 'Edellinen',
+            skip_nav: 'Siirry sisältöön',
         },
         sort: {
             sort_by: 'Järjestä %{order} \'%{field}\'-kentän mukaan',
