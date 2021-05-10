@@ -12,6 +12,7 @@ const finnishMessages: TranslationMessages = {
             clone: 'Kopioi',
             confirm: 'Vahvista',
             create: 'Uusi',
+            create_item: 'Uusi %{item}',
             delete: 'Poista',
             edit: 'Muokkaa',
             export: 'Vie',
