@@ -133,6 +133,7 @@ const finnishMessages: TranslationMessages = {
             i18n_error: 'Valitulle kielelle ei voitu ladata käännöstä',
             canceled: 'Toiminta peruutettu',
             logged_out: 'Istuntosi on päättynyt, ole hyvä kirjaudu uudelleen.',
+            not_authorized: 'Sinulla ei ole lupaa käyttää tätä resurssia.',
         },
         validation: {
             required: 'Pakollinen',
