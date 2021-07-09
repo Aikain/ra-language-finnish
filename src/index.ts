@@ -30,6 +30,7 @@ const finnishMessages: TranslationMessages = {
             close: 'Sulje',
             open_menu: 'Avaa valikko',
             close_menu: 'Sulje valikko',
+            update: 'Päivitä',
         },
         boolean: {
             true: 'Kyllä',
@@ -74,6 +75,10 @@ const finnishMessages: TranslationMessages = {
                 'Oletko varma, että ${name} poistetaan? |||| Oletko varma että haluat poistaa %{smart_count} kohdetta?',
             bulk_delete_title:
                 'Poista %{name} |||| Poista %{smart_count} %{name} kohdetta',
+            bulk_update_content:
+                'Oletko varma, että ${name} päivitetään? |||| Oletko varma, että haluat päivittää %{smart_count} kohdetta?',
+            bulk_update_title:
+                'Päivitä %{name} |||| Päivitä %{smart_count} %{name} kohdetta',
             delete_content: 'Oletko varma, että haluat poistaa tämän kohteen?',
             delete_title: 'Poista %{name} #%{id}',
             details: 'Yksityiskohdat',
