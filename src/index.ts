@@ -31,6 +31,8 @@ const finnishMessages: TranslationMessages = {
             open_menu: 'Avaa valikko',
             close_menu: 'Sulje valikko',
             update: 'Päivitä',
+            move_up: 'Siirrä ylös',
+            move_down: 'Siirrä alas',
         },
         boolean: {
             true: 'Kyllä',
