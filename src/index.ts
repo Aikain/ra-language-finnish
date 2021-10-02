@@ -22,6 +22,8 @@ const finnishMessages: TranslationMessages = {
             remove: 'Poista',
             save: 'Tallenna',
             search: 'Etsi',
+            select_all: 'Valitse kaikki',
+            select_row: 'Valitse tämä rivi',
             show: 'Näytä',
             sort: 'Järjestä',
             undo: 'Kumoa',
