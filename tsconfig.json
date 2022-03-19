@@ -6,10 +6,7 @@
         "allowJs": false,
         "target": "ES5",
         "module": "CommonJS",
-        "lib": [
-            "ES2017",
-            "DOM"
-        ],
+        "lib": ["ES2017", "DOM"],
         "jsx": "react",
         "noImplicitAny": false,
         "moduleResolution": "node",
@@ -17,7 +14,5 @@
         "esModuleInterop": true,
         "skipLibCheck": true
     },
-    "include": [
-        "src"
-    ]
+    "include": ["src"]
 }

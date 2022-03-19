@@ -65,8 +65,8 @@ const finnishMessages: TranslationMessages = {
                 upload_single: 'Pudota kuva tai klikkaa valitaksesi.',
             },
             password: {
-                toggle_hidden: "Näytä salasana",
-                toggle_visible: "Piilota salasana"
+                toggle_hidden: 'Näytä salasana',
+                toggle_visible: 'Piilota salasana',
             },
             references: {
                 all_missing: 'Viittauksen tietoja ei löydetty.',
@@ -79,12 +79,10 @@ const finnishMessages: TranslationMessages = {
             are_you_sure: 'Oletko varma?',
             bulk_delete_content:
                 'Oletko varma, että ${name} poistetaan? |||| Oletko varma että haluat poistaa %{smart_count} kohdetta?',
-            bulk_delete_title:
-                'Poista %{name} |||| Poista %{smart_count} %{name} kohdetta',
+            bulk_delete_title: 'Poista %{name} |||| Poista %{smart_count} %{name} kohdetta',
             bulk_update_content:
                 'Oletko varma, että ${name} päivitetään? |||| Oletko varma, että haluat päivittää %{smart_count} kohdetta?',
-            bulk_update_title:
-                'Päivitä %{name} |||| Päivitä %{smart_count} %{name} kohdetta',
+            bulk_update_title: 'Päivitä %{name} |||| Päivitä %{smart_count} %{name} kohdetta',
             delete_content: 'Oletko varma, että haluat poistaa tämän kohteen?',
             delete_title: 'Poista %{name} #%{id}',
             details: 'Yksityiskohdat',
@@ -92,16 +90,13 @@ const finnishMessages: TranslationMessages = {
             invalid_form: 'Lomake ei täytä vaatimuksia. Tarkista virheet.',
             loading: 'Sivua ladataan, ole hyvä ja odota hetki',
             no: 'Ei',
-            not_found:
-                'Kirjoitit viallisen osoitteen tai seurasit viallista linkkiä.',
+            not_found: 'Kirjoitit viallisen osoitteen tai seurasit viallista linkkiä.',
             yes: 'Kyllä',
-            unsaved_changes:
-                'Joitakin muutoksia ei ole tallennettu. Haluatko varmasti hylätä ne?',
+            unsaved_changes: 'Joitakin muutoksia ei ole tallennettu. Haluatko varmasti hylätä ne?',
         },
         navigation: {
             no_results: 'Yhtään kohdetta ei löytynyt',
-            no_more_results:
-                '%{page}. sivu ylittää tulosten määrän. Yritä edellistä sivua.',
+            no_more_results: '%{page}. sivu ylittää tulosten määrän. Yritä edellistä sivua.',
             page_out_of_boundaries: '%{page}. sivu on rajojen ulkopuolella',
             page_out_from_end: 'Olet jo viimeisellä sivulla',
             page_out_from_begin: 'Olet jo ensimmäisellä sivulla',
@@ -117,7 +112,7 @@ const finnishMessages: TranslationMessages = {
             skip_nav: 'Siirry sisältöön',
         },
         sort: {
-            sort_by: 'Järjestä %{order} \'%{field}\'-kentän mukaan',
+            sort_by: "Järjestä %{order} '%{field}'-kentän mukaan",
             ASC: 'nousevasti',
             DESC: 'laskevasti',
         },
@@ -127,20 +122,17 @@ const finnishMessages: TranslationMessages = {
             username: 'Käyttäjätunnus',
             password: 'Salasana',
             sign_in: 'Kirjaudu sisään',
-            sign_in_error:
-                'Kirjautuminen epäonnistui, ole hyvä ja yritä uudelleen',
+            sign_in_error: 'Kirjautuminen epäonnistui, ole hyvä ja yritä uudelleen',
             logout: 'Kirjaudu ulos',
         },
         notification: {
-            updated:
-                'Kohde päivitetty |||| %{smart_count} kohdetta päivitetty',
+            updated: 'Kohde päivitetty |||| %{smart_count} kohdetta päivitetty',
             created: 'Kohde luotu',
             deleted: 'Kohde poistettu |||| %{smart_count} kohdetta poistettu',
             bad_item: 'Virheellinen kohde',
             item_doesnt_exist: 'Kohdetta ei ole olemassa',
             http_error: 'Virhe palvelimelle yhdistettäessä',
-            data_provider_error:
-                'dataProvider virhe. Tarkista console lisätietojen saamiseksi.',
+            data_provider_error: 'dataProvider virhe. Tarkista console lisätietojen saamiseksi.',
             i18n_error: 'Valitulle kielelle ei voitu ladata käännöstä',
             canceled: 'Toiminta peruutettu',
             logged_out: 'Istuntosi on päättynyt, ole hyvä kirjaudu uudelleen.',
