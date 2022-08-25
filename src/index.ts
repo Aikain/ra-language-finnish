@@ -19,6 +19,7 @@ const finnishMessages: TranslationMessages = {
             list: 'Lista',
             refresh: 'Päivitä',
             remove_filter: 'Poista suodatin',
+            remove_all_filters: 'Poista kaikki suodattimet',
             remove: 'Poista',
             save: 'Tallenna',
             search: 'Etsi',
