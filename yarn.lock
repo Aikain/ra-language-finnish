@@ -211,10 +211,10 @@ query-string@^7.1.1:
     split-on-first "^1.0.0"
     strict-uri-encode "^2.0.0"
 
-ra-core@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.3.0.tgz#5fc4486e907588c250a20d46cd23822ce49a912b"
-  integrity sha512-ewsZ7XFdOiJQidkKSQTmCa1xtwPNWmKufTHIMMHtq7E4RZz2VgkJVVAPyxR7JNif5SvaZums02HRbQdZSh2QMg==
+ra-core@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.4.0.tgz#001e1d31598677ebddff35666dab4ad6de228ea3"
+  integrity sha512-/Ze5bEi8KCVjStzGlYW0Ke6YejnM/GLpbaKeCGYd8jPhD8IDXzmb3d9dPkpVrl8XY2T+BDR7TlYC0gvUYWPbQQ==
   dependencies:
     clsx "^1.1.1"
     date-fns "^2.19.0"
