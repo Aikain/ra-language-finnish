@@ -161,6 +161,20 @@ const finnishMessages: TranslationMessages = {
             remove_message: 'Oletko varma, että haluat poistaa kyseisen kohteen tallennetuista kyselyistä?',
             help: 'Suodata listaa ja tallenna tämä kysely myöhempää käyttöä varten',
         },
+        configurable: {
+            customize: 'Mukauta',
+            configureMode: 'Mukauta tätä sivua',
+            inspector: {
+                title: 'Tarkastelu',
+                content: 'Vie hiiri elementin päälle mukauttaaksesi sitä',
+                reset: 'Nollaa asetukset',
+            },
+            SimpleList: {
+                primaryText: 'Ensisijainen teksti',
+                secondaryText: 'Toissijainen teksti',
+                tertiaryText: 'Tertiäärinen teksti',
+            },
+        },
     },
 };
 
