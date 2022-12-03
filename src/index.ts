@@ -8,6 +8,7 @@ const finnishMessages: TranslationMessages = {
             back: 'Takaisin',
             bulk_actions: '%{smart_count} valittu',
             cancel: 'Peruuta',
+            clear_array_input: 'Tyhjennä lista',
             clear_input_value: 'Tyhjennä',
             clone: 'Kopioi',
             confirm: 'Vahvista',
@@ -38,6 +39,7 @@ const finnishMessages: TranslationMessages = {
             move_down: 'Siirrä alas',
             open: 'Avaa',
             toggle_theme: 'Vaihda teema',
+            select_columns: 'Sarakkeet',
         },
         boolean: {
             true: 'Kyllä',
@@ -84,6 +86,7 @@ const finnishMessages: TranslationMessages = {
             bulk_update_content:
                 'Oletko varma, että ${name} päivitetään? |||| Oletko varma, että haluat päivittää %{smart_count} kohdetta?',
             bulk_update_title: 'Päivitä %{name} |||| Päivitä %{smart_count} %{name} kohdetta',
+            clear_array_input: 'Oletko varma, että haluat tyhjentää koko listan?',
             delete_content: 'Oletko varma, että haluat poistaa tämän kohteen?',
             delete_title: 'Poista %{name} #%{id}',
             details: 'Yksityiskohdat',
@@ -168,8 +171,19 @@ const finnishMessages: TranslationMessages = {
                 title: 'Tarkastelu',
                 content: 'Vie hiiri elementin päälle mukauttaaksesi sitä',
                 reset: 'Nollaa asetukset',
+                hideAll: 'Piilota kaikki',
+                showAll: 'Näytä kaikki',
+            },
+            Datagrid: {
+                title: 'Taulukko',
+                unlabeled: 'Nimetön kenttä: %{column}',
+            },
+            SimpleForm: {
+                title: 'Lomake',
+                unlabeled: 'Nimetön kenttä: %{input}',
             },
             SimpleList: {
+                title: 'Lista',
                 primaryText: 'Ensisijainen teksti',
                 secondaryText: 'Toissijainen teksti',
                 tertiaryText: 'Tertiäärinen teksti',
