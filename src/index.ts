@@ -80,6 +80,7 @@ const finnishMessages: TranslationMessages = {
         message: {
             about: 'Tietoja',
             are_you_sure: 'Oletko varma?',
+            auth_error: 'Autentikointitokenin vahvistamisessa tapahtui virhe',
             bulk_delete_content:
                 'Oletko varma, että ${name} poistetaan? |||| Oletko varma että haluat poistaa %{smart_count} kohdetta?',
             bulk_delete_title: 'Poista %{name} |||| Poista %{smart_count} %{name} kohdetta',
