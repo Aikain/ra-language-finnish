@@ -40,6 +40,7 @@ const finnishMessages: TranslationMessages = {
             open: 'Avaa',
             toggle_theme: 'Vaihda teema',
             select_columns: 'Sarakkeet',
+            update_application: 'Päivitä sovellus',
         },
         boolean: {
             true: 'Kyllä',
@@ -142,6 +143,7 @@ const finnishMessages: TranslationMessages = {
             canceled: 'Toiminta peruutettu',
             logged_out: 'Istuntosi on päättynyt, ole hyvä kirjaudu uudelleen.',
             not_authorized: 'Sinulla ei ole lupaa käyttää tätä resurssia.',
+            application_update_available: 'Uusi versio saatavilla.',
         },
         validation: {
             required: 'Pakollinen',
@@ -153,6 +155,7 @@ const finnishMessages: TranslationMessages = {
             email: 'Sähköpostin täytyy olla kelvollinen',
             oneOf: 'Valinnan on oltava joku seuraavista: %{options}',
             regex: 'Sisällön on täsmättävä regexp:iin: %{pattern}',
+            unique: 'On oltava uniikki',
         },
         saved_queries: {
             label: 'Tallennetut kyselyt',

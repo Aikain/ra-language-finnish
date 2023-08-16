@@ -486,9 +486,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ra-core@npm:^4.7.0":
-  version: 4.7.0
-  resolution: "ra-core@npm:4.7.0"
+"ra-core@npm:^4.13.0":
+  version: 4.13.0
+  resolution: "ra-core@npm:4.13.0"
   dependencies:
     clsx: ^1.1.1
     date-fns: ^2.19.0
@@ -504,10 +504,10 @@ __metadata:
     history: ^5.1.0
     react: ^16.9.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0
-    react-hook-form: ^7.40.0
+    react-hook-form: ^7.43.9
     react-router: ^6.1.0
     react-router-dom: ^6.1.0
-  checksum: 8cf6fd21a334057e610687acafdaa70b9cd08ec7f2d2d68109d2eca94f40610d4bf8c057270bc5b5dc78e8064ace8a0ab3f569474ab1363b761d2765df9d0b9d
+  checksum: 5f5de86357861df553450b77a6859f8cc339510da8d6b48b0890703ce2b26cbf8294ce41d566a9a514a88325f1a57086bb054e7ad60a4c6bc4f7e96049b52d86
   languageName: node
   linkType: hard
 
@@ -516,7 +516,7 @@ __metadata:
   resolution: "ra-language-finnish@workspace:."
   dependencies:
     prettier: 3.0.2
-    ra-core: ^4.7.0
+    ra-core: ^4.13.0
     rimraf: ^5.0.1
     typescript: ^5.1.6
   languageName: unknown
