@@ -42,5 +42,5 @@
         "url": "https://github.com/Aikain/ra-language-finnish/issues"
     },
     "homepage": "https://github.com/Aikain/ra-language-finnish#readme",
-    "packageManager": "yarn@3.6.1"
+    "packageManager": "yarn@4.3.1"
 }
