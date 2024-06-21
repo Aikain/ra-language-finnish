@@ -26,9 +26,9 @@
         "ra-core": "^4.13.0"
     },
     "devDependencies": {
-        "prettier": "3.0.2",
-        "rimraf": "^5.0.1",
-        "typescript": "^5.1.6"
+        "prettier": "3.3.2",
+        "rimraf": "^5.0.7",
+        "typescript": "^5.5.2"
     },
     "keywords": [
         "react-admin",
