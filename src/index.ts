@@ -101,6 +101,8 @@ const finnishMessages: TranslationMessages = {
             unsaved_changes: 'Joitakin muutoksia ei ole tallennettu. Haluatko varmasti hylätä ne?',
         },
         navigation: {
+            clear_filters: 'Tyhjennä suodattimet',
+            no_filtered_results: 'Yhtään kohdetta ei löytynyt nykyisillä suodattimilla.',
             no_results: 'Yhtään kohdetta ei löytynyt',
             no_more_results: '%{page}. sivu ylittää tulosten määrän. Yritä edellistä sivua.',
             page_out_of_boundaries: '%{page}. sivu on rajojen ulkopuolella',
