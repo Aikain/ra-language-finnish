@@ -58,6 +58,8 @@ const finnishMessages: TranslationMessages = {
             show: '%{name} %{recordRepresentation}',
             empty: 'Kohteessa %{name} ei ole sisältöä.',
             invite: 'Haluako lisätä ensimmäisen?',
+            access_denied: 'Pääsy estetty',
+            authentication_error: 'Autentikointivirhe',
         },
         input: {
             file: {
@@ -99,6 +101,8 @@ const finnishMessages: TranslationMessages = {
             not_found: 'Kirjoitit viallisen osoitteen tai seurasit viallista linkkiä.',
             yes: 'Kyllä',
             unsaved_changes: 'Joitakin muutoksia ei ole tallennettu. Haluatko varmasti hylätä ne?',
+            access_denied: 'Sinulla ei ole oikeuksia katsoa tätä sivua',
+            authentication_error: 'Autentikointipalvelin palautti virheen eikä tunnuksiasi voitu tarkistaa',
         },
         navigation: {
             clear_filters: 'Tyhjennä suodattimet',
