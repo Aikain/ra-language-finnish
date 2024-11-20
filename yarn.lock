@@ -315,7 +315,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ra-core@npm:^5.2.1":
+"ra-core@npm:^5.3.4":
   version: 5.3.4
   resolution: "ra-core@npm:5.3.4"
   dependencies:
@@ -344,7 +344,7 @@ __metadata:
   resolution: "ra-language-finnish@workspace:."
   dependencies:
     prettier: "npm:3.3.3"
-    ra-core: "npm:^5.2.1"
+    ra-core: "npm:^5.3.4"
     rimraf: "npm:^6.0.1"
     typescript: "npm:^5.6.3"
   languageName: unknown
