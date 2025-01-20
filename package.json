@@ -24,7 +24,7 @@
         "watch": "tsc --outDir esm --module es2015 --watch"
     },
     "dependencies": {
-        "ra-core": "^5.3.4"
+        "ra-core": "^5.5.0"
     },
     "devDependencies": {
         "prettier": "3.3.3",
