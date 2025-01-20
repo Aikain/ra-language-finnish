@@ -25,6 +25,7 @@ const finnishMessages: TranslationMessages = {
             save: 'Tallenna',
             search: 'Etsi',
             select_all: 'Valitse kaikki',
+            select_all_button: 'Valitse kaikki',
             select_row: 'Valitse tämä rivi',
             show: 'Näytä',
             sort: 'Järjestä',
@@ -82,7 +83,9 @@ const finnishMessages: TranslationMessages = {
         },
         message: {
             about: 'Tietoja',
+            access_denied: 'Sinulla ei ole oikeuksia katsoa tätä sivua',
             are_you_sure: 'Oletko varma?',
+            authentication_error: 'Autentikointipalvelin palautti virheen eikä tunnuksiasi voitu tarkistaa',
             auth_error: 'Autentikointitokenin vahvistamisessa tapahtui virhe',
             bulk_delete_content:
                 'Oletko varma, että ${name} poistetaan? |||| Oletko varma että haluat poistaa %{smart_count} kohdetta?',
@@ -99,10 +102,10 @@ const finnishMessages: TranslationMessages = {
             loading: 'Sivua ladataan, ole hyvä ja odota hetki',
             no: 'Ei',
             not_found: 'Kirjoitit viallisen osoitteen tai seurasit viallista linkkiä.',
+            select_all_limit_reached:
+                'Kohteita on liian monta, jotta kaikki olisi voitu valita. Valittiin %{max} ensimmäistä.',
             yes: 'Kyllä',
             unsaved_changes: 'Joitakin muutoksia ei ole tallennettu. Haluatko varmasti hylätä ne?',
-            access_denied: 'Sinulla ei ole oikeuksia katsoa tätä sivua',
-            authentication_error: 'Autentikointipalvelin palautti virheen eikä tunnuksiasi voitu tarkistaa',
         },
         navigation: {
             clear_filters: 'Tyhjennä suodattimet',
