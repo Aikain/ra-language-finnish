@@ -100,6 +100,7 @@ const finnishMessages: TranslationMessages = {
             error: 'Ongelma havaittu eikä pyyntöäsi pystytty suorittamaan.',
             invalid_form: 'Lomake ei täytä vaatimuksia. Tarkista virheet.',
             loading: 'Sivua ladataan, ole hyvä ja odota hetki',
+            placeholder_data_warning: 'Verkko ongelma: tietojen päivittäminen epäonnistui.',
             no: 'Ei',
             not_found: 'Kirjoitit viallisen osoitteen tai seurasit viallista linkkiä.',
             select_all_limit_reached:
@@ -136,6 +137,7 @@ const finnishMessages: TranslationMessages = {
             user_menu: 'Profiili',
             username: 'Käyttäjätunnus',
             password: 'Salasana',
+            email: 'Sähköposti',
             sign_in: 'Kirjaudu sisään',
             sign_in_error: 'Kirjautuminen epäonnistui, ole hyvä ja yritä uudelleen',
             logout: 'Kirjaudu ulos',
