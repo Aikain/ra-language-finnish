@@ -315,9 +315,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ra-core@npm:^5.5.0":
-  version: 5.5.0
-  resolution: "ra-core@npm:5.5.0"
+"ra-core@npm:^5.7.0":
+  version: 5.7.0
+  resolution: "ra-core@npm:5.7.0"
   dependencies:
     "@tanstack/react-query": "npm:^5.21.7"
     clsx: "npm:^2.1.1"
@@ -335,7 +335,7 @@ __metadata:
     react-hook-form: ^7.53.0
     react-router: ^6.28.1 || ^7.1.1
     react-router-dom: ^6.28.1 || ^7.1.1
-  checksum: 10c0/5a945fba8113107ada732861239e7093b82212bffb211f19c984cb9696308dbf2d436e7af673beeb255c40d04c43ca51e796eef7ad6ab0fa6ccd772b7f3804c2
+  checksum: 10c0/4fe9b8a68a2c3a1ed62eb61c734c13fd1fd7a5e1f4e2ae26c936617cf260e3471c95607127ba7b4706121b96562af5cc0bdc8ccf6609d8c52db4b91abffc7098
   languageName: node
   linkType: hard
 
@@ -344,7 +344,7 @@ __metadata:
   resolution: "ra-language-finnish@workspace:."
   dependencies:
     prettier: "npm:3.4.2"
-    ra-core: "npm:^5.5.0"
+    ra-core: "npm:^5.7.0"
     rimraf: "npm:^6.0.1"
     typescript: "npm:^5.7.3"
   languageName: unknown
