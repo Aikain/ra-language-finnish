@@ -26,21 +26,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:5.80.6":
-  version: 5.80.6
-  resolution: "@tanstack/query-core@npm:5.80.6"
-  checksum: 10c0/ce52d962036bf84845c9dafb654075bbc8eafd9236069b7c234b7f72a30e4e61daf222940d9f28b4359858277cc1e1d08dd1f8e6cc0adac72acc083fc5c0195c
+"@tanstack/query-core@npm:5.83.1":
+  version: 5.83.1
+  resolution: "@tanstack/query-core@npm:5.83.1"
+  checksum: 10c0/3eeacf678fcf9803585f1be74979548a33c7f659b8d5f33c1e3b3834ef3b9f3401070b2e2d38bbaa9c6e5a3c359baaa3828078e38007b7c99fb8c9f1e3911142
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:^5.21.7":
-  version: 5.80.6
-  resolution: "@tanstack/react-query@npm:5.80.6"
+"@tanstack/react-query@npm:^5.83.0":
+  version: 5.84.0
+  resolution: "@tanstack/react-query@npm:5.84.0"
   dependencies:
-    "@tanstack/query-core": "npm:5.80.6"
+    "@tanstack/query-core": "npm:5.83.1"
   peerDependencies:
     react: ^18 || ^19
-  checksum: 10c0/ec2dc548ff28d92778e851d64b0c24e3289218b496694c0b7bed1e92b5b96b03f8b047d4a8a04c6924937c56e257d53fbe42e046745da10d9dababe48505f843
+  checksum: 10c0/70e4e0067b8dae55dcc689017d7b130e6f18dbc61ef64cf5ae7f245f5a104435c3466692bb1ba362e82115212ca544bd2d30cd83c9ccfcac6bd98bcb07624f8f
   languageName: node
   linkType: hard
 
@@ -87,13 +87,6 @@ __metadata:
   dependencies:
     balanced-match: "npm:^1.0.0"
   checksum: 10c0/6d117a4c793488af86b83172deb6af143e94c17bc53b0b3cec259733923b4ca84679d506ac261f4ba3c7ed37c46018e2ff442f9ce453af8643ecd64f4a54e6cf
-  languageName: node
-  linkType: hard
-
-"clsx@npm:^2.1.1":
-  version: 2.1.1
-  resolution: "clsx@npm:2.1.1"
-  checksum: 10c0/c4c8eb865f8c82baab07e71bfa8897c73454881c4f99d6bc81585aecd7c441746c1399d08363dc096c550cceaf97bd4ce1e8854e1771e9998d9f94c4fe075839
   languageName: node
   linkType: hard
 
@@ -313,12 +306,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ra-core@npm:^5.8.3":
-  version: 5.8.3
-  resolution: "ra-core@npm:5.8.3"
+"ra-core@npm:^5.10.1":
+  version: 5.10.1
+  resolution: "ra-core@npm:5.10.1"
   dependencies:
-    "@tanstack/react-query": "npm:^5.21.7"
-    clsx: "npm:^2.1.1"
+    "@tanstack/react-query": "npm:^5.83.0"
     date-fns: "npm:^3.6.0"
     eventemitter3: "npm:^5.0.1"
     inflection: "npm:^3.0.0"
@@ -333,7 +325,7 @@ __metadata:
     react-hook-form: ^7.53.0
     react-router: ^6.28.1 || ^7.1.1
     react-router-dom: ^6.28.1 || ^7.1.1
-  checksum: 10c0/b4fa09c9000490ec829529b1cc653cb474a26635328b4c60f7f2d9c5156788c432b046fcec6421ff1c584c15050c5549488ce11fd457f77cc203f3850bf8efea
+  checksum: 10c0/8ba25f32ee8588f2c370964d268fba516d6544bed0281fa4c8b9ce4b58278867dfa0ef8ed3d67efd5e3635c2ca25adbbf0388c2872dbcfa82074820647add6d3
   languageName: node
   linkType: hard
 
@@ -342,7 +334,7 @@ __metadata:
   resolution: "ra-language-finnish@workspace:."
   dependencies:
     prettier: "npm:3.5.3"
-    ra-core: "npm:^5.8.3"
+    ra-core: "npm:^5.10.1"
     rimraf: "npm:^6.0.1"
     typescript: "npm:^5.8.3"
   languageName: unknown
