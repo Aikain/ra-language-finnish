@@ -1,6 +1,6 @@
 {
     "name": "ra-language-finnish",
-    "version": "5.8.3",
+    "version": "5.10.1",
     "description": "Finnish messages for react-admin, the frontend Framework for building B2B applications running in the browser on top of REST/GraphQL APIs, using ES6, React and Material Design",
     "repository": {
         "type": "git",
