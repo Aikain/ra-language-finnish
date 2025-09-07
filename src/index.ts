@@ -156,6 +156,7 @@ const finnishMessages: TranslationMessages = {
             logged_out: 'Istuntosi on päättynyt, ole hyvä kirjaudu uudelleen.',
             not_authorized: 'Sinulla ei ole lupaa käyttää tätä resurssia.',
             application_update_available: 'Uusi versio saatavilla.',
+            offline: 'Ei yhteyttä. Tietoja ei voitu hakea.',
         },
         validation: {
             required: 'Pakollinen',
