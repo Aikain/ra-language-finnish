@@ -27,8 +27,8 @@
         "ra-core": "^5.12.1"
     },
     "devDependencies": {
-        "prettier": "3.6.2",
-        "rimraf": "^6.0.1",
+        "prettier": "3.8.1",
+        "rimraf": "^6.1.2",
         "typescript": "^5.9.3"
     },
     "keywords": [
@@ -43,5 +43,5 @@
         "url": "https://github.com/Aikain/ra-language-finnish/issues"
     },
     "homepage": "https://github.com/Aikain/ra-language-finnish#readme",
-    "packageManager": "yarn@4.10.3"
+    "packageManager": "yarn@4.12.0"
 }
