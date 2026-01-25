@@ -22,6 +22,7 @@ const finnishMessages: TranslationMessages = {
             remove_filter: 'Poista suodatin',
             remove_all_filters: 'Poista kaikki suodattimet',
             remove: 'Poista',
+            reset: 'Nollaa',
             save: 'Tallenna',
             search: 'Etsi',
             search_columns: 'Hae sarakkeista',
