@@ -182,6 +182,12 @@ const finnishMessages: TranslationMessages = {
             remove_message: 'Oletko varma, että haluat poistaa kyseisen kohteen tallennetuista kyselyistä?',
             help: 'Suodata listaa ja tallenna tämä kysely myöhempää käyttöä varten',
         },
+        guesser: {
+            empty: {
+                title: 'Ei tietoja näytettäväksi',
+                message: 'Tarkista käyttämäsi dataprovider',
+            },
+        },
         configurable: {
             customize: 'Mukauta',
             configureMode: 'Mukauta tätä sivua',
