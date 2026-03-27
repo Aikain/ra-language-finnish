@@ -48,7 +48,7 @@ const finnishMessages: TranslationMessages = {
         boolean: {
             true: 'Kyllä',
             false: 'Ei',
-            null: '',
+            null: ' ',
         },
         page: {
             create: 'Luo %{name}',
@@ -181,6 +181,12 @@ const finnishMessages: TranslationMessages = {
             remove_dialog_title: 'Poistetaanko tallennettu kysely?',
             remove_message: 'Oletko varma, että haluat poistaa kyseisen kohteen tallennetuista kyselyistä?',
             help: 'Suodata listaa ja tallenna tämä kysely myöhempää käyttöä varten',
+        },
+        guesser: {
+            empty: {
+                title: 'Ei tietoja näytettäväksi',
+                message: 'Tarkista käyttämäsi dataprovider',
+            },
         },
         configurable: {
             customize: 'Mukauta',
