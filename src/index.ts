@@ -48,7 +48,7 @@ const finnishMessages: TranslationMessages = {
         boolean: {
             true: 'Kyllä',
             false: 'Ei',
-            null: '',
+            null: ' ',
         },
         page: {
             create: 'Luo %{name}',
