@@ -1,35 +1,39 @@
 {
     "name": "ra-language-finnish",
-    "version": "5.14.4",
+    "version": "5.14.7",
     "description": "Finnish messages for react-admin, the frontend Framework for building B2B applications running in the browser on top of REST/GraphQL APIs, using ES6, React and Material Design",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Aikain/ra-language-finnish.git"
     },
+    "zshy": "./src/index.ts",
+    "main": "./dist/index.cjs",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.cts",
+    "type": "module",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.cts",
+            "import": "./dist/index.js",
+            "require": "./dist/index.cjs"
+        }
+    },
     "files": [
         "*.md",
-        "lib",
-        "esm",
-        "src"
+        "dist"
     ],
-    "main": "lib/index.js",
-    "module": "esm/index.js",
-    "types": "esm/index.d.ts",
     "scripts": {
-        "build": "yarn run build-cjs && yarn run build-esm",
-        "build-cjs": "rimraf ./lib && tsc",
-        "build-esm": "rimraf ./esm && tsc --outDir esm --module es2015",
-        "ts:check": "tsc --noemit",
-        "prettier": "prettier --write src",
-        "watch": "tsc --outDir esm --module es2015 --watch"
+        "build": "zshy",
+        "ts:check": "tsc --noEmit",
+        "prettier": "prettier --write src"
     },
     "dependencies": {
-        "ra-core": "^5.14.4"
+        "ra-core": "^5.14.7"
     },
     "devDependencies": {
-        "prettier": "3.8.1",
-        "rimraf": "^6.1.3",
-        "typescript": "^5.9.3"
+        "prettier": "3.8.3",
+        "typescript": "^6.0.3",
+        "zshy": "^0.7.2"
     },
     "keywords": [
         "react-admin",
@@ -43,5 +47,5 @@
         "url": "https://github.com/Aikain/ra-language-finnish/issues"
     },
     "homepage": "https://github.com/Aikain/ra-language-finnish#readme",
-    "packageManager": "yarn@4.13.0"
+    "packageManager": "yarn@4.15.0"
 }

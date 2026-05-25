@@ -1,18 +1,17 @@
 {
     "compilerOptions": {
-        "outDir": "lib",
-        "rootDir": "src",
+        "target": "es2023",
+        "module": "node16",
+        "moduleResolution": "node16",
         "declaration": true,
-        "allowJs": false,
-        "target": "ES5",
-        "module": "CommonJS",
-        "lib": ["ES2017", "DOM"],
-        "jsx": "react",
-        "noImplicitAny": false,
-        "moduleResolution": "node",
-        "allowSyntheticDefaultImports": true,
-        "esModuleInterop": true,
+        "emitDeclarationOnly": true,
+
+        "outDir": "dist",
+        "rootDir": "src",
+
+        "strict": true,
         "skipLibCheck": true
     },
-    "include": ["src"]
+    "include": ["src"],
+    "exclude": ["node_modules", "dist"]
 }
