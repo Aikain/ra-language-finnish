@@ -151,9 +151,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ra-core@npm:^5.14.4":
-  version: 5.14.4
-  resolution: "ra-core@npm:5.14.4"
+"ra-core@npm:^5.14.7":
+  version: 5.14.7
+  resolution: "ra-core@npm:5.14.7"
   dependencies:
     date-fns: "npm:^3.6.0"
     eventemitter3: "npm:^5.0.1"
@@ -167,10 +167,10 @@ __metadata:
     "@tanstack/react-query": ^5.83.0
     react: ^18.0.0 || ^19.0.0
     react-dom: ^18.0.0 || ^19.0.0
-    react-hook-form: ^7.65.0
+    react-hook-form: ^7.72.0
     react-router: ^6.28.1 || ^7.1.1
     react-router-dom: ^6.28.1 || ^7.1.1
-  checksum: 10c0/11cdde33e089eda5f3e97fdec3c40a10c7ca0edb82df6f613e3f1f5cdff46e852da7af54136aa20eaab0234043a607708451617e1927fa0dc241a06a659614b8
+  checksum: 10c0/354370d00753b06074f8dc14d7188a798de74bac355d09cbe7bb0f6f241ca684afaff82be675754be21444dbfe9152a5c55d410a32a9881d8ca5df0ee7d15fed
   languageName: node
   linkType: hard
 
@@ -179,7 +179,7 @@ __metadata:
   resolution: "ra-language-finnish@workspace:."
   dependencies:
     prettier: "npm:3.8.1"
-    ra-core: "npm:^5.14.4"
+    ra-core: "npm:^5.14.7"
     rimraf: "npm:^6.1.3"
     typescript: "npm:^5.9.3"
   languageName: unknown
